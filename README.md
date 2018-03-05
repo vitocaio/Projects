@@ -8,7 +8,7 @@ A AngularJS 5 project to work with Twitch API.
 
 Cloning the project.
 ```
-git clone https://github.com/vitocaio/projects/app-games
+git clone https://github.com/vitocaio/app-games.git
 ```
 
 Access the **source** folder of the project.
