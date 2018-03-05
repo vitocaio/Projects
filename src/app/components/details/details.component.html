@@ -1,0 +1,14 @@
+<nav class="navbar fixed-top">
+    <button  (click)="back()"> <i class="fa fa-angle-left"></i> </button>
+    <h1>{{ game.name }}</h1>
+</nav>
+
+<main role="main" class="container">
+  <img [src]="game.box.large">
+  <div class="legenda">
+    <h2>{{ game.name }}</h2>
+    <p>{{ game.viewers }} visualizações</p>
+    <p>{{ game.channels }} canais ao vivo</p>
+    <p>{{ game.popularity }} popularidade</p>
+  </div>
+</main>

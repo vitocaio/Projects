@@ -1,27 +1,35 @@
-# TestePan
+# APP Games
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
+A AngularJS 5 project to work with Twitch API.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Installing
 
-## Code scaffolding
+Cloning the project.
+```
+git clone https://github.com/vitocaio/projects/app-games
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Access the **source** folder of the project.
+```
+cd app-games/
+```
 
-## Build
+Install dependencies.
+```
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Serve with hot reload at localhost:4200.
+```
+npm run start or ng serve
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run the project, you must have the node installed on your computer.
+You can get more information on how to get it [here](https://docs.npmjs.com/getting-started/installing-node).
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This project is licensed under the MIT License.

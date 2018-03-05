@@ -1,0 +1,3 @@
+<app-search (game)="getGameByName($event)"></app-search>
+<app-filter (viewers)="getGamesBySort($event)" (popularity)="getGamesBySort($event)"></app-filter>
+<app-list [gamesList]="gamesList" [filter]="filter" [notfind]="notfind"></app-list>
